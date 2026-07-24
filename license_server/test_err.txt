@@ -1,0 +1,66 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.249:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 456-627-649
+127.0.0.1 - - [23/Jul/2026 15:34:38] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 15:34:39] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:34:39] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Jul/2026 15:34:44] "POST /admin/login HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 15:34:44] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:34:49] "POST /admin/crear HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 15:34:49] "GET /admin/?msg=Licencia+creada+OK HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:34:51] "POST /admin/crear HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 15:34:51] "GET /admin/?msg=Licencia+creada+OK HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:34:57] "POST /admin/eliminar_masivo HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 15:34:57] "GET /admin/?msg=Licencias+eliminadas HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:35:01] "GET /admin/editar/1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:35:05] "GET /admin/ver/1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:35:18] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:35:19] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:35:33] "GET /admin/ver/1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:36:21] "GET /api/license/verify?key=LICS-7ED24FD4E63A&hw_id=bd1f74b0773f HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:41:48] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:41:48] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Jul/2026 15:46:28] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:46:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Jul/2026 15:46:34] "POST /admin/login HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 15:46:35] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:47:00] "POST /admin/eliminar_masivo HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 15:47:00] "GET /admin/?msg=Licencias+eliminadas HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:47:01] "POST /admin/crear HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 15:47:01] "GET /admin/?msg=Licencia+creada+OK HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:47:12] "GET /admin/ver/3 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:13:48] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:13:52] "GET /admin/ver/3 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:32:29] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:32:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Jul/2026 16:32:46] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:32:52] "POST /admin/login HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 16:32:52] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:32:56] "GET /admin/ver/3 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:33:03] "POST /api/license/activate HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:33:54] "POST /api/license/activate HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:34:56] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:34:59] "GET /admin/suspender/3 HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 16:34:59] "GET /admin/?msg=Licencia+suspendida HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:35:04] "POST /api/license/activate HTTP/1.1" 403 -
+127.0.0.1 - - [23/Jul/2026 16:35:07] "GET /admin/reactivar/3 HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 16:35:08] "GET /admin/?msg=Licencia+reactivada HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 16:35:14] "POST /api/license/activate HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 17:04:49] "GET /api/license/verify?key=LICS-E7B12382BA25&hw_id=bd1f74b0773f HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 17:07:09] "GET /admin/?msg=Licencia+reactivada HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 17:07:22] "GET /api/license/verify?key=LICS-E7B12382BA25&hw_id=bd1f74b0773f HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 17:17:58] "GET /api/license/verify?key=LICS-E7B12382BA25&hw_id=bd1f74b0773f HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 17:19:34] "GET /admin/ver/3 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 17:19:41] "POST /api/license/activate HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 17:20:13] "POST /admin/eliminar_masivo HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 17:20:13] "GET /admin/?msg=Licencias+eliminadas HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 17:20:13] "POST /admin/crear HTTP/1.1" 302 -
+127.0.0.1 - - [23/Jul/2026 17:20:14] "GET /admin/?msg=Licencia+creada+OK HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 17:20:50] "POST /api/license/activate HTTP/1.1" 404 -
+127.0.0.1 - - [23/Jul/2026 17:20:54] "GET /admin/ver/4 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 17:21:04] "POST /api/license/activate HTTP/1.1" 200 -
